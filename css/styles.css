@@ -1,7 +1,12 @@
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #212121;
-    background-color: rgba(255, 255, 255, 1)
+    position: relative;
+    width: 1600px;
+    height: 2346px;
+    background: rgba(255, 255, 255, 1);
+}
+.colortext {
+    color: rgba(33, 150, 243, 1);
 }
 .logo {
     font-family: 'Raleway';
@@ -12,17 +17,13 @@ body {
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 1);
 }
-.colortext {
-    color: rgba(33, 150, 243, 1);
-}
 .logo:hover {
     color: rgba(33, 150, 243, 1)
 }
 .logo:focus {
     color: rgba(33, 150, 243, 1)
 }
-.navigation {
-    font-family: 'Roboto';
+.list-navigation {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -30,14 +31,13 @@ body {
     letter-spacing: 0.02em;
     color: rgba(33, 33, 33, 1);
 }
-.navigation:hover {
+.list-navigation:hover {
     color: rgba(33, 150, 243, 1);
 }
-.navigation:focus {
+.list-navigation:focus {
     color: rgba(33, 150, 243, 1);
 }
-.contacts {
-    font-family: 'Roboto';
+.list-contacts {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -45,25 +45,26 @@ body {
     letter-spacing: 0.02em;
     color: rgba(117, 117, 117, 1)
 }
-.contacts:hover {
+.list-contacts:hover {
     color: rgba(33, 150, 243, 1);
 }
-.contacts:focus {
+.list-contacts:focus {
     color: rgba(33, 150, 243, 1);
 }
-.container {
+.box {
     background-color: rgba(47, 48, 58, 1);
 }
-.container-title {
-    font-family: 'Roboto';
+.box-title {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
 }
 .button {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -83,4 +84,80 @@ body {
 }
 .list {
     list-style: none;
+}
+.list-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(33, 33, 33, 1);
+}
+.list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+.title-activity {  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+.team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(33, 33, 33, 1);
+}
+.position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(117, 117, 117, 1);
+}
+.project {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: rgba(33, 33, 33, 1);
+}
+.project-type {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+.page-footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+.page-footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 1);
 }
