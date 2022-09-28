@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.colortext {
+    color: rgba(33, 150, 243, 1);
+}
+
